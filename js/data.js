@@ -164,10 +164,24 @@ const staffData = {
         ]
     },
     "Reserva Activa": [
-        { LEG: "70-01", NOMBRE: "MARTINEZ CARLOS ALBERTO", JERARQUIA: "Oficial Auxiliar" },
-        { LEG: "70-02", NOMBRE: "GONZALEZ LUIS FERNANDO", JERARQUIA: "Sub Oficial Ayudante" },
-        { LEG: "70-03", NOMBRE: "LOPEZ SANTIAGO JAVIER", JERARQUIA: "Bombero" },
-        { LEG: "70-04", NOMBRE: "HERNANDEZ PABLO MIGUEL", JERARQUIA: "Bombero" }
+        { LEG: "60-05", NOMBRE: "ACTIS HECTOR OMAR", JERARQUIA: "Comandante" },
+        { LEG: "60-03", NOMBRE: "SALGADO MARCELO ANDRES", JERARQUIA: "Sub Comandante" },
+        { LEG: "60-06", NOMBRE: "MAULIN WALTER HUGO", JERARQUIA: "Oficial Auxiliar de Dotación" },
+        { LEG: "60-08", NOMBRE: "SERRA DANIEL OMAR", JERARQUIA: "Oficial Auxiliar de Dotación" },
+        { LEG: "60-15", NOMBRE: "SOLE CLAUDIO MARCELO", JERARQUIA: "Oficial Auxiliar de Dotación" },
+        { LEG: "60-09", NOMBRE: "DELL ANTONIO ALBERTO GUILLERMO", JERARQUIA: "Oficial Auxiliar de Escuadra" },
+        { LEG: "60-13", NOMBRE: "GARCIA GUILLERMO DANIEL", JERARQUIA: "Oficial Auxiliar de Escuadra" },
+        { LEG: "60-17", NOMBRE: "VEZZONI FABIO ARTEMIO", JERARQUIA: "Oficial Auxiliar de Escuadra" },
+        { LEG: "60-19", NOMBRE: "VELASCO SEBASTIAN", JERARQUIA: "Oficial Auxiliar de Escuadra" },
+        { LEG: "60-11", NOMBRE: "YERKOVICH NESTOR ESTEBAN", JERARQUIA: "Oficial Auxiliar" },
+        { LEG: "60-10", NOMBRE: "RAVAGNI GERMÁN DARIO", JERARQUIA: "Oficial Auxiliar" },
+        { LEG: "60-21", NOMBRE: "ACTIS DIEGO MARTIN", JERARQUIA: "Oficial Auxiliar" },
+        { LEG: "60-12", NOMBRE: "POLLINI JAVIER JESUS", JERARQUIA: "Sub Oficial Ayudante Mayor" },
+        { LEG: "60-04", NOMBRE: "SPAGNUOLO DANIEL OSCAR", JERARQUIA: "Sub Oficial Ayudante Principal" },
+        { LEG: "60-30", NOMBRE: "GAUNA MIGUEL ANGEL", JERARQUIA: "Sub Oficial de Primera" },
+        { LEG: "60-02", NOMBRE: "VELASCO JUAN CARLOS", JERARQUIA: "Sub Oficial Ayudante" },
+        { LEG: "60-38", NOMBRE: "SUPPO MARTÍN OCTAVIO", JERARQUIA: "Sub Oficial Sub Ayudante" },
+        { LEG: "60-27", NOMBRE: "CORTASA JOSE MARIA", JERARQUIA: "Bombero" }
     ],
     "Comisión Directiva": [
         { LEG: "80-01", NOMBRE: "PEREZ JUAN CARLOS", JERARQUIA: "Presidente" },
