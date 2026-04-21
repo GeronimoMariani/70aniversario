@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>70º Aniversario - Bomberos Voluntarios de Colón</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663529238999/g48WQo3vm34cWhFG7fgsP3/LOGOBOMBEROSCOLONBASINFONDO_67215c1f.png" alt="Logo Bomberos de Colón" class="logo">
+                    <div class="logo-text">
+                        <h1>Bomberos de Colón</h1>
+                        <p>70º Aniversario</p>
+                    </div>
+                </div>
+                <nav class="nav-menu">
+                    <button class="nav-btn" onclick="scrollToSection('timeline')">Línea de Tiempo</button>
+                    <button class="nav-btn" onclick="scrollToSection('gallery')">Galería</button>
+                    <button class="nav-btn" onclick="scrollToSection('staff')">Personal</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background" style="background-image: url('https://i.ibb.co/SXjp7RL9/20260415-154236.jpg')"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">1956 - 2026</span>
+            <h2 class="hero-title">70 Años de Servicio</h2>
+            <p class="hero-subtitle">Siete décadas de esfuerzo, valor, voluntad y entrega. La historia de los Bomberos Voluntarios de Colón.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('timeline')">Explorar Historia</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('staff')">Nuestro Personal</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">Nuestra Historia</h2>
+                    <p>Durante siete décadas, hemos respondido a innumerables emergencias, desde incendios hasta rescates, siempre con la misma dedicación y profesionalismo. Nuestros miembros, tanto veteranos como activos, continúan escribiendo la historia de servicio.</p>
+                    <p>Hoy, en nuestro 70º aniversario, celebramos no solo nuestros logros, sino el apoyo inquebrantable de la comunidad que ha hecho posible nuestra existencia.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">70</div>
+                        <p>Años de servicio ininterrumpido</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1956</div>
+                        <p>Año de fundación</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">39</div>
+                        <p>Miembros activos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2 class="section-title">Línea de Tiempo</h2>
+            <p class="section-subtitle">Hitos importantes en la historia del Cuartel</p>
+            <div id="timeline-container" class="timeline-container"></div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Galería</h2>
+            <p class="section-subtitle">Momentos del pasado y presente</p>
+            <div class="gallery-carousel-wrapper">
+                <button class="carousel-btn carousel-btn-prev" id="carousel-prev" aria-label="Anterior">❮</button>
+                <div class="gallery-carousel">
+                    <div id="gallery-container" class="gallery-track"></div>
+                </div>
+                <button class="carousel-btn carousel-btn-next" id="carousel-next" aria-label="Siguiente">❯</button>
+            </div>
+            <div class="carousel-indicators" id="carousel-indicators"></div>
+        </div>
+    </section>
+
+    <!-- Featured Quote Section -->
+    <section id="values" class="featured-quote">
+        <div class="quote-background" style="background-image: url('images/historia-servicio.webp')"></div>
+        <div class="quote-overlay"></div>
+        <div class="quote-content">
+            <h2 class="quote-text">"El que no vive para servir, no sirve para vivir"</h2>
+        </div>
+    </section>
+
+    <!-- Staff Section -->
+    <section id="staff" class="staff">
+        <div class="container">
+            <h2 class="section-title">Personal Actual</h2>
+            <p class="section-subtitle">Conoce al personal que hoy en día sirven a la comunidad de Colón</p>
+            <div id="staff-container" class="staff-container"></div>
+            <div class="staff-total">
+                <p class="total-number" id="total-staff">57</p>
+                <p>Miembros del Cuartel de Bomberos Voluntarios de Colón</p>
+                <p class="total-subtitle">Cuerpo Activo - 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Lightbox Modal -->
+    <div id="image-modal" class="image-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Cerrar">&times;</button>
+            <button class="modal-nav-btn modal-nav-prev" id="modal-prev" aria-label="Imagen anterior">❮</button>
+            <img id="modal-image" src="" alt="Imagen ampliada" class="modal-image">
+            <button class="modal-nav-btn modal-nav-next" id="modal-next" aria-label="Siguiente imagen">❯</button>
+            <div class="modal-counter" id="modal-counter"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Sobre Nosotros</h3>
+                    <p>Sociedad de Bomberos Voluntarios de Colón.</p>
+                    <p>Calle 18 entre 51 y 52, Colón, Buenos Aires.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Teléfono: (2473) 421333<br>Email: info@bomberosdecolon.com.ar</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <p>Facebook | Instagram | Twitter</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bomberos Voluntarios de Colón. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/values.js"></script>
+    <script src="js/staff.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
