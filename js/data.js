@@ -6,22 +6,27 @@ const timelineData = [
     {
         year: 1956,
         title: "Fundación del Cuartel",
-        description: "Nace la Sociedad de Bomberos Voluntarios de Colón en el Mercado Municipal, bajo la visión de José Picapietra."
+        description: "Nace la Sociedad de Bomberos Voluntarios de Colón en el Mercado Municipal."
     },
     {
         year: 1957,
+        title: "Primer Incendio",
+        description: "Sucedió el 2 de febrero de 1957 en una propiedad de precario estado de un tal Arandía"
+    },
+    {
+        year: 1959,
         title: "Primer Equipo",
-        description: "Se adquiere el primer equipo de bomberos, apodado 'Pobrecito Morris', que sirve fielmente al cuartel."
+        description: "Se adquiere el primer equipo de bomberos, Camion Morris Modelo 1946, que sirve fielmente al cuartel."
     },
     {
-        year: 1965,
-        title: "Expansión de Servicios",
-        description: "Se amplían los servicios de rescate y se incorporan nuevas técnicas de intervención."
+        year: 1961,
+        title: "Nuevo Cuartel",
+        description: "La Sociedad pudo contar con un edificio propio el 24 de Septiembre de 1961."
     },
     {
-        year: 1980,
-        title: "Modernización",
-        description: "Se moderniza el cuartel con nuevos equipos y tecnología de última generación."
+        year: 1975,
+        title: "Primer incendio de gran magnitud",
+        description: "El incendio de Bolsarpil el 25 de junio de 1975 que demando una actuación de 39 horas."
     },
     {
         year: 1995,
@@ -29,14 +34,9 @@ const timelineData = [
         description: "Se celebra el 50º aniversario con una gran ceremonia comunitaria."
     },
     {
-        year: 2000,
-        title: "Nuevo Cuartel",
-        description: "Se inaugura la nueva sede del cuartel con instalaciones modernas."
-    },
-    {
-        year: 2010,
-        title: "Capacitación Avanzada",
-        description: "Se implementan programas de capacitación avanzada en rescate y emergencias."
+        year: 2003,
+        title: "Accidente de gran magnitud",
+        description: "El 14 de septiembre se registró una colisión frontal de gran repercusión nacional entre dos ómnibus de larga distancia, con un balance de 15 víctimas mortales y 26 heridos."
     },
     {
         year: 2020,
@@ -44,9 +44,9 @@ const timelineData = [
         description: "Durante la pandemia, el cuartel continúa prestando servicios esenciales a la comunidad."
     },
     {
-        year: 2024,
-        title: "Modernización Tecnológica",
-        description: "Se incorporan sistemas de comunicación y monitoreo de última generación."
+        year: 2025,
+        title: "Cuartel actual",
+        description: "El cuartel dispone de una flota de 8 unidades móviles y se mantiene a la vanguardia mediante la constante incorporación de innovaciones tecnológicas."
     },
     {
         year: 2026,
