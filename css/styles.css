@@ -40,6 +40,23 @@ body {
     line-height: 1.6;
 }
 
+a {
+  color: var(--white); /* o el color que quieras */
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--white);
+}
+
+a:hover {
+  color: var(--white);
+}
+
+a:active {
+  color: var(--white);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;

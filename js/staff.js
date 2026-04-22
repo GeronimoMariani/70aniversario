@@ -42,7 +42,7 @@ function renderStaff() {
                 staffGrid.className = 'staff-grid';
 
                 members.forEach(member => {
-                    const staffCard = createStaffCard(member);
+                    const staffCard = createStaffCard(member, groupName);
                     staffGrid.appendChild(staffCard);
                 });
 
@@ -75,7 +75,7 @@ function renderStaff() {
             staffGrid.className = 'staff-grid';
 
             groupData.forEach(member => {
-                const staffCard = createStaffCard(member);
+                const staffCard = createStaffCard(member, groupName);
                 staffGrid.appendChild(staffCard);
             });
 
@@ -89,7 +89,7 @@ function renderStaff() {
     document.getElementById('total-staff').textContent = totalMembers;
 }
 
-function createStaffCard(member) {
+function createStaffCard(member, groupName) {
     const staffCard = document.createElement('div');
     staffCard.className = 'staff-card';
 
@@ -114,10 +114,13 @@ function createStaffCard(member) {
     name.className = 'staff-name';
     name.textContent = member.NOMBRE;
 
-    // Legajo
+    // Legajo (solo se muestra si NO es Comisión Directiva)
     const legajo = document.createElement('div');
     legajo.className = 'staff-legajo';
     legajo.textContent = `Leg. ${member.LEG}`;
+    if (groupName === 'Comisión Directiva') {
+        legajo.style.display = 'none'; // Ocultar pero mantener en el DOM
+    }
 
     // Jerarquía
     const jerarquia = document.createElement('div');

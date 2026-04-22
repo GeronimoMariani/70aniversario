@@ -184,10 +184,20 @@ const staffData = {
         { LEG: "60-27", NOMBRE: "CORTASA JOSE MARIA", JERARQUIA: "Bombero" }
     ],
     "Comisión Directiva": [
-        { LEG: "80-01", NOMBRE: "PEREZ JUAN CARLOS", JERARQUIA: "Presidente" },
-        { LEG: "80-02", NOMBRE: "RODRIGUEZ MARIA FERNANDA", JERARQUIA: "Vicepresidente" },
-        { LEG: "80-03", NOMBRE: "GARCIA SERGIO DANIEL", JERARQUIA: "Secretario" },
-        { LEG: "80-04", NOMBRE: "TORRES ALEJANDRA BEATRIZ", JERARQUIA: "Tesorera" }
+        { LEG: "60-905", NOMBRE: "ROMERO GUSTAVO ALEJANDRO", JERARQUIA: "Presidente" },
+        { LEG: "60-916", NOMBRE: "CODINA RUBEN JOSÉ", JERARQUIA: "Vicepresidente" },
+        { LEG: "60-917", NOMBRE: "PICAPIETRA JUAN PABLO", JERARQUIA: "Secretario General" },
+        { LEG: "60-904", NOMBRE: "ALVAREZ WALTER RAUL", JERARQUIA: "Pro Secretario General" },
+        { LEG: "60-903", NOMBRE: "HANON ARIEL CEFERINO", JERARQUIA: "Tesorero" },
+        { LEG: "60-909", NOMBRE: "PASCUAL MIGUEL ANGEL", JERARQUIA: "Pro Tesorero" },
+        { LEG: "60-907", NOMBRE: "LUJAN FERNANDO JAVIER", JERARQUIA: "Vocal Titular 1°" },
+        { LEG: "60-908", NOMBRE: "PRIANO NORBERTO EDUARDO", JERARQUIA: "Vocal Titular 2°" },
+        { LEG: "60-912", NOMBRE: "OLIVERO SEGIO ROBERTO", JERARQUIA: "Vocal Titular 3°" },
+        { LEG: "60-914", NOMBRE: "BARROSO SERGIO HUMBERTO", JERARQUIA: "Vocal Suplente 1°" },
+        { LEG: "60-906", NOMBRE: "ROMERO PABLO HORACIO", JERARQUIA: "Vocal Suplente 2°" },
+        { LEG: "60-913", NOMBRE: "ROMANO FEDERICO LUIS", JERARQUIA: "Vocal Suplente 3°" },
+        { LEG: "60-918", NOMBRE: "SALMONS GRISELDA ALICIA", JERARQUIA: "Revisor de Cuentas Titular" },
+        { LEG: "60-919", NOMBRE: "YERKOVICH ESTELA ROSA", JERARQUIA: "Revisor de Cuentas Suplente" }
     ]
 };
 
