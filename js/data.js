@@ -73,6 +73,96 @@ const galleryData = [
     },
     {
         image: "https://i.ibb.co/tMPDNpQG/20260415-153445.jpg"
+    },
+    {
+        image: "https://i.ibb.co/BK6QBR50/1-Cuerpo.jpg"
+    },
+    {
+        image: "https://i.ibb.co/q25hKd5/4.jpg"
+    },
+    {
+        image: "https://i.ibb.co/Jw0TnLrv/798677816-160013.jpg"
+    },
+    {
+        image: "https://i.ibb.co/BHXk7Dn0/798677898-043669.jpg"
+    },
+    {
+        image: "https://i.ibb.co/SD8BLqhh/798678071-928117.jpg"
+    },
+    {
+        image: "https://i.ibb.co/4R8Lfxwn/798678136-594808.jpg"
+    },
+    {
+        image: "https://i.ibb.co/2YZc1NyR/798678176-576472.jpg"
+    },
+    {
+        image: "https://i.ibb.co/vvK87H4M/798678233-946991.jpg"
+    },
+    {
+        image: "https://i.ibb.co/gMbXkrGG/798678300-524600.jpg"
+    },
+    {
+        image: "https://i.ibb.co/G3kcYX5h/798678384-583039.jpg"
+    },
+    {
+        image: "https://i.ibb.co/mrW9SXsd/798678773-990432.jpg"
+    },
+    {
+        image: "https://i.ibb.co/VWXtcxRz/798678807-968571.jpg"
+    },
+    {
+        image: "https://i.ibb.co/1GGnf6L5/798678842-344290.jpg"
+    },
+    {
+        image: "https://i.ibb.co/rfF09ZRG/798678911-450073.jpg"
+    },
+    {
+        image: "https://i.ibb.co/0ppGcfwD/798678959-087252.jpg"
+    },
+    {
+        image: "https://i.ibb.co/QFSNZX5f/798679004-153157.jpg"
+    },
+    {
+        image: "https://i.ibb.co/bRDjYFSM/798679421-801854.jpg"
+    },
+    {
+        image: "https://i.ibb.co/39MH3ZyC/798679478-356724.jpg"
+    },
+    {
+        image: "https://i.ibb.co/yn3XhhbF/798679527-894821.jpg"
+    },
+    {
+        image: "https://i.ibb.co/Xf6wNFxN/798679546-276671.jpg"
+    },
+    {
+        image: "https://i.ibb.co/B50YndqJ/798679576-349319.jpg"
+    },
+    {
+        image: "https://i.ibb.co/cSMBd9p1/798735631-357130.jpg"
+    },
+    {
+        image: "https://i.ibb.co/ZPtdvHD/DSC-0089.jpg"
+    },
+    {
+        image: "https://i.ibb.co/zV8W6VCN/DSC-0573.jpg"
+    },
+    {
+        image: "https://i.ibb.co/4wYsqPcL/Whats-App-Image-2026-04-23-at-22-51-49.jpg"
+    },
+    {
+        image: "https://i.ibb.co/JFwtyNpv/Whats-App-Image-2026-04-23-at-22-54-05.jpg"
+    },
+    {
+        image: "https://i.ibb.co/27LhSL6z/79373e45-4c06-4f40-b9f3-1b62a1a72622.jpg"
+    },
+    {
+        image: "https://i.ibb.co/Hf9DWPrn/IMG-2377.avif"
+    },
+    {
+        image: "https://i.ibb.co/YTbz3wSy/108cf71f-0f9d-4a5e-9848-4bfec9b23196.jpg"
+    },
+    {
+        image: "https://i.ibb.co/ds83fVGk/4d3d4d2f-49d0-4fcb-b04b-24063e23c1ed.jpg"
     }
 ];
 
